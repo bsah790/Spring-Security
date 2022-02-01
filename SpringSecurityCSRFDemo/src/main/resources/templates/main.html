@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form method="post" action="/changes">
+       <!-- <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}"/>-->
+        <p>Hello Programmers!!</p>
+        <button type="submit"> Click Me</button>
+    </form>
+
+    <form method="post" action="/ignoreCsrf/another">
+        <p>Hello Guru!</p>
+        <button type="submit">New Button</button>
+    </form>
+</body>
+</html>
